@@ -1,0 +1,123 @@
+#home{
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+}
+#home p{
+font-size:20px;
+}
+h1{
+    font-size: 50px;
+}
+#home .carousel-item{
+    width: 100%;
+    height:80vh;
+}
+@media all and (max-width:568px){
+    #home h1{
+        font-size:18px;
+        }
+        #home p{
+            font-size:16px;
+            }
+}
+.form-check{
+    position:absolute ;
+    left:85%;
+    z-index: 99999;
+    margin-top: 13px;
+    color: white;
+}
+label{
+    font-size:20px;
+    font-family: 'Oswald', sans-serif;
+}
+@media all and (max-width:568px){
+    .form-check{
+        position:absolute ;
+        left:70%;
+        z-index: 99999;
+        margin-top: 13px;
+        color: white;
+    }
+    label{
+        font-size:14px;
+        font-family: 'Oswald', sans-serif;
+    }
+}
+#loadding{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 9999999;
+    background-color: black;
+}
+#loadding .fas{
+    background-color: transparent !important;
+    font-size: 50px;
+    color:#cda45e;
+}
+.layer{
+    position: absolute;
+    top:45%;
+}
+.typed-cursor{
+    visibility: hidden;
+}
+#news{
+    color: black !important;
+}
+#news{
+    padding: 40px;
+    
+}
+h2{
+    text-align: center;
+    color: #0000FF;
+    font-family: 'Oswald', sans-serif;
+}
+.caption{
+    background-color: black !important;
+    color: #7EC8E3;
+    padding:20px;
+    box-shadow: 10px 10px 40px black;
+}
+.caption p{
+    font-family: 'Londrina Solid', cursive;
+}
+input{
+    padding:8px;
+    background-color: black;
+    border:1px solid red;
+    color: white;
+}
+input:placeholder{
+text-align:center;
+}
+footer{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+span{
+    color: yellow;
+}
+.fab{
+    font-size:18px;
+    color: #7EC8E3;
+    margin:0px 10px;
+}
+[data-theme="dark"] {
+    background-color: #111 !important;
+    color: #eee;
+  }

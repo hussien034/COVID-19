@@ -1,0 +1,106 @@
+<html>
+
+<head>
+    <title>COVID-19</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="description" content="covid-19">
+    <meta name="keywords" content="covid-19">
+    <meta name="author" content="bassem hussien">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap" rel="stylesheet">
+</head>
+<body data-theme="dark">
+    <div class="form-check form-switch">
+        <input type="checkbox" class="form-check-input" id="darkSwitch" />
+        <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+      </div>
+      <div class="clearfix"></div>
+    <div id="loadding" class="d-flex">
+        <i class="fas fa-spinner fa-spin fa-5x"></i>
+    </div>
+    <section id="home">
+        <div id="carouselExampleCaptions" class="carousel slide w-100" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000"
+                    style="background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+                    url(img/gani-nurhakim-8thMgrYrjLc-unsplash.jpg); background-position: center center; background-size: 100% 100%;">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000"
+                    style="background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+                  url(img/matteo-jorjoson-EDLcv5N4suo-unsplash.jpg); background-position: center center; background-size: 100% 100%;">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000"
+                    style="background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+                  url(img/martin-sanchez-j2c7yf223Mk-unsplash.jpg); background-position: center center; background-size: 100% 100%;">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="layer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1>Coronavirus disease (COVID-19)</h1>
+                        <p class="element"></p>
+                        <br>
+                        <input type="text" placeholder="Search By Country" class="w-75" onkeyup="search(this.value)">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="news">
+        
+        <div class="container">
+            <div class="row g-3" id="rows" >
+
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h4>© Copyright Covid-19. All Rights Reserved</h4>
+        <p>Designed by <span>Bassem Hussien</span></p>
+        <div class="contact-icon">
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-linkedin-in"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </footer>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/dark-mode-switch.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
